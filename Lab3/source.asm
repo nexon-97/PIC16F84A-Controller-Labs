@@ -57,7 +57,6 @@ START:
       
       BCF OPTION_REG, 5 ; Use internal clock for TMR0
       BCF OPTION_REG, 3 ; Prescaler assigned to TMR0
-      ANDWF OPTION_REG, 
       
       MOVLW 0xF8	  ; W = 0xF8 (Prescaler mask, masks out 3 LSB)
       ANDWF OPTION_REG, 1 ; OPTION_REG &= 0xF8
