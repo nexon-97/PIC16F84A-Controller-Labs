@@ -1,0 +1,2 @@
+### Double seven-segment indicator, controlled by value, stored in shift register.
+### Shift register value is set throuhg binary state button elements, and it is transformed from parallel to serial form, and transmitted to microcontroller inputs.
